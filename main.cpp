@@ -41,6 +41,7 @@ int main() {
     vector<FileContent> fileContents;
 
     // Read text files and tokenize their contents
+    //enter file path to data folder for D:\\project-cpp\\data
     string directoryPath = "D:\\project-cpp\\data";
     for (const auto& entry : fs::directory_iterator(directoryPath)) {
         if (entry.is_regular_file()) {
