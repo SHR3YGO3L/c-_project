@@ -1,2 +1,2 @@
-# cpp_project
+# SearchSift
 This project involves the development of a C++ program that performs keyword search in multiple text files within a specified directory. The program tokenizes the content of each file, counts the occurrences of a user-specified keyword, ranks the files based on occurrences, and allows the user to open a selected file. This report outlines the implementation details, challenges faced, and the overall project outcome.
